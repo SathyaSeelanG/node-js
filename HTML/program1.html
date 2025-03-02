@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic CSS Demo</title>
+    <!-- Internal CSS -->
+    <style>
+        header {
+            background-color: #ff6b6b;
+            padding: 20px;
+            margin-bottom: 15px;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+
+        .nav-item {
+            color: white;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+    </style>
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Inline CSS -->
+    <header style="text-align: center; color: white; border-bottom: 2px solid #fff;">
+        <h1 style="margin: 0; font-size: 32px;">Welcome to CSS Demo</h1>
+        <p style="font-style: italic; margin-top: 5px;">Basic CSS Showcase</p>
+    </header>
+
+    <nav>
+        <ul style="list-style: none; margin: 0; padding: 0;">
+            <li class="nav-item" style="display: inline; font-weight: bold;">Home</li>
+            <li class="nav-item" style="display: inline; font-weight: bold;">About</li>
+            <li class="nav-item" style="display: inline; font-weight: bold;">Contact</li>
+        </ul>
+    </nav>
+
+    <main style="padding: 20px;">
+        <section style="border: 1px solid #666; padding: 15px; background-color: #f5f5f5;">
+            <h2>Basic CSS Demo</h2>
+            <p style="color: #444; margin: 0;">This page shows basic CSS usage</p>
+            <div style="border: 1px solid #ff6b6b; padding: 10px; margin-top: 15px;">
+                <h3 style="color: #ff6b6b; margin: 0;">Sample Card</h3>
+                <p style="font-size: 16px; margin: 5px 0;">Simple content block</p>
+            </div>
+        </section>
+    </main>
+
+    <footer style="background-color: #333; color: white; text-align: center; padding: 10px;">
+        <p style="margin: 0; font-size: 14px;">© 2025 CSS Demo</p>
+    </footer>
+</body>
+</html>

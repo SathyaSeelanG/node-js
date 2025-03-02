@@ -1,0 +1,31 @@
+/* External Stylesheet */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #700707;
+}
+
+ul {
+    text-align: center;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+div {
+    background-color: #fff;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
