@@ -1,0 +1,21 @@
+- Register a new user (POST):
+- URL: http://localhost:3000/api/register
+- Body:
+```json
+{
+    "username": "testuser",
+    "password": "testpassword"
+}
+ ```
+- Login (POST):
+
+- URL: http://localhost:3000/api/login
+- Body:
+```json
+{
+    "username": "testuser",
+    "password": "testpassword"
+}
+ ```
+- Get all users (GET):
+- URL: http://localhost:3000/api/users
