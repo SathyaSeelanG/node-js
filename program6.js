@@ -11,7 +11,7 @@ const PORT = 3000;
 app.engine('handlebars', engine());
 app.set('view engine', 'handlebars');
 app.set('views', path.join(__dirname, '../views'));
-
+//nodjes
 // Middleware
 app.use(bodyParser.urlencoded({ extended: true }));
 
