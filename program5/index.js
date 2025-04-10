@@ -11,17 +11,17 @@ const server = http.createServer((req, res) => {
   const extname = path.extname(filePath);
   let contentType = 'text/html';
 
-  switch (extname) {
-    case '.css':
-      contentType = 'text/css';
-      break;
-    case '.js':
-      contentType = 'text/javascript';
-      break;
-    case '.json':
-      contentType = 'application/json';
-      break;
-  }
+  // switch (extname) {
+  //   case '.css':
+  //     contentType = 'text/css';
+  //     break;
+  //   case '.js':
+  //     contentType = 'text/javascript';
+  //     break;
+  //   case '.json':
+  //     contentType = 'application/json';
+  //     break;
+  // }
 
   fs.readFile(filePath, (err, data) => {
     if (err) {
