@@ -1,0 +1,18 @@
+
+Design a webpage using basic CSS tags. Demonstrate inline, internal and external style sheets 
+using advanced CSS. 
+Design a webpage using advance html form tags input-date, time, number, email, htmlS 
+header and footer, spell check and editable areas. 
+Create a form and validate the contents of the form using JavaScript. 
+Get data using fetch API from an open-source endpoint and display the contents in the form 
+of a card. 
+Create a NodeJS server that serves static html and CSS files to the user without using express. 
+Create a NodeJS server using express that stores data from a form as a JSON file and displays 
+it in another page. The redirect page should be prepared using handlebars. 
+create a NodeJS server using express that creates, reads, updates and deletes students 
+details and stores them in mongodB database. 
+Create a NodeJS server that creates, reads, updates and deletes event details and stores 
+them in a MySQL database. The information about the user should be obtained from an html 
+form. 
+Create a counter using Reactjs. 
+ Create a Docker container that will deploy a NodeJS ping server using the NodeJS image. 
