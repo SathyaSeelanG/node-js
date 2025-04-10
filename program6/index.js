@@ -7,8 +7,11 @@ const path = require('path');
 const app = express();
 const PORT = 3000;
 
-// Set up Handlebars
-app.engine('handlebars', engine());
+// Set up Handlebars without layouts
+app.engine('handlebars', engine({
+    layoutsDir: null,
+    defaultLayout: null
+}));
 app.set('view engine', 'handlebars');
 app.set('views', path.join(__dirname, '/views'));
 

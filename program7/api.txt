@@ -1,0 +1,87 @@
+User Registration API Examples:
+===========================
+1. Register a new user (POST):
+URL: http://localhost:3000/api/register
+Body:
+{
+    "username": "testuser",
+    "password": "testpassword"
+}
+
+2. Login (POST):
+URL: http://localhost:3000/api/login
+Body:
+{
+    "username": "testuser",
+    "password": "testpassword"
+}
+
+3. Get all users (GET):
+URL: http://localhost:3000/api/users
+
+
+Student Management API Examples:
+============================
+1. Create a new student (POST):
+URL: http://localhost:3000/students
+Body:
+{
+    "name": "John Doe",
+    "age": 20,
+    "course": "MCA"
+}
+
+2. Get all students (GET):
+URL: http://localhost:3000/students
+
+3. Get specific student (GET):
+URL: http://localhost:3000/students/64c8a2e1b2d3f45678901234
+
+4. Update student (PUT):
+URL: http://localhost:3000/students/64c8a2e1b2d3f45678901234
+Body:
+{
+    "name": "John Smith",
+    "age": 21,
+    "course": "MCA"
+}
+
+5. Delete student (DELETE):
+URL: http://localhost:3000/students/64c8a2e1b2d3f45678901234
+
+Response Examples:
+================
+Success Responses:
+- Student Creation:
+{
+    "message": "Student created successfully",
+    "student": {
+        "_id": "64c8a2e1b2d3f45678901234",
+        "name": "John Doe",
+        "age": 20,
+        "course": "MCA"
+    }
+}
+
+- User Registration:
+{
+    "message": "User registered successfully"
+}
+
+Error Responses:
+- User Already Exists:
+{
+    "message": "Username already exists"
+}
+
+- Student Not Found:
+{
+    "message": "Student not found"
+}
+
+- Invalid Login:
+{
+    "message": "Invalid password"
+}
+```
+

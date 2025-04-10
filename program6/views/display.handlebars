@@ -1,7 +1,21 @@
-<h1>Submitted Form Data</h1>
-<div class="data-display">
-    <p><strong>Name:</strong> {{data.name}}</p>
-    <p><strong>Email:</strong> {{data.email}}</p>
-
-</div>
-<a href="/">Back to Form</a>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Form Data Display</title>
+    <style>
+        body { padding: 20px; font-family: Arial, sans-serif; }
+        .data-container { max-width: 600px; margin: 0 auto; }
+    </style>
+</head>
+<body>
+    <div class="data-container">
+        <h1>Submitted Form Data</h1>
+        <div class="data-display">
+            <p><strong>Name:</strong> {{data.name}}</p>
+            <p><strong>Email:</strong> {{data.email}}</p>
+        </div>
+        <a href="/">Back to Form</a>
+    </div>
+</body>
+</html>
